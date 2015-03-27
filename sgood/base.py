@@ -6,7 +6,7 @@ from nltk import FreqDist
 import sgood.config
 
 import logging
-log = logging.getLogger('sgood')
+log = logging.getLogger()
 
 
 def load_inputs(filename):
