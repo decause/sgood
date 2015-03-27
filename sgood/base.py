@@ -13,7 +13,7 @@ def load_inputs(filename):
     log.info("* Loading corpus")
     # Open a csv, read the whole thing
     with open(filename, "r") as f:
-        raw = f.read()
+        raw = f.read().decode('utf-8')
     return raw
 
 
