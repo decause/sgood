@@ -21,8 +21,6 @@ Generate a wordcloud (independent from NLTK) in the form of a .png
 Installing
 ---
 
-`pip install requirements.txt`
-
 Though these are disparate tools, you can install each to run the component
 scripts manually. Start with:
 
