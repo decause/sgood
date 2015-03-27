@@ -67,7 +67,7 @@ def write_csv(words, filename, parts_of_speech, n=10000):
     writer = csv.writer(f)
     for i, pair in enumerate(words.items()):
         word, count = pair
-        row = word, count, parts_of_speech[word]
+        row = word.encode('utf-8'), count, parts_of_speech[word]
         writer.writerow(row)
         log.info("%r appeared %i times. Its part of speech is %r" % (
             word, count, parts_of_speech[word],
