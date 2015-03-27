@@ -21,6 +21,9 @@ Generate a wordcloud (independent from NLTK) in the form of a .png
 Installing
 ---
 
+You’re going to need libxslt-devel, which in Fedora is:
+`sudo yum install libxslt-devel`
+
 Though these are disparate tools, you can install each to run the component
 scripts manually. Start with:
 
